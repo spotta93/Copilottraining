@@ -1,6 +1,7 @@
 // Data/DatabaseContext.cs
 using Microsoft.Data.Sqlite;
 using Dapper;
+using System.Data;
 
 public class DatabaseContext
 {
@@ -8,7 +9,7 @@ public class DatabaseContext
 
     public DatabaseContext()
     {
-        _connectionString = "Data Source=C:\\Users\\spotta\\OneDrive - Black Knight\\Documents\\AI Training\\CoPilot-Lab-Files-main\\db\\Chinook.db";
+        _connectionString = @"Data Source=C:\\Users\\spotta\\db\\Chinook.db";
     }
 
     public IDbConnection Connection
@@ -16,6 +17,7 @@ public class DatabaseContext
         get
         {
             return new SqliteConnection(_connectionString);
+            
         }
     }
 }

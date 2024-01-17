@@ -1,4 +1,8 @@
 // Controllers/InvoicesController.cs
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.Sqlite;
+using Dapper;
+using System.Data;
 [ApiController]
 [Route("[controller]")]
 public class InvoicesController : ControllerBase
@@ -15,7 +19,7 @@ public class InvoicesController : ControllerBase
     {
         using (IDbConnection conn = _context.Connection)
         {
-            string sQuery = "SELECT BillingCountry, InvoiceCount FROM Invoices";
+            string sQuery = "SELECT * FROM Invoice";
             conn.Open();
             var result = await conn.QueryAsync<Invoices>(sQuery);
             return result;
