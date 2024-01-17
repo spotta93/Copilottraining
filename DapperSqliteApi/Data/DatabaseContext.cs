@@ -8,7 +8,7 @@ public class DatabaseContext
 
     public DatabaseContext()
     {
-        _connectionString = "Data Source=c:\\users\\johndohoney\\reports.db";
+        _connectionString = "Data Source=C:\\Users\\spotta\\OneDrive - Black Knight\\Documents\\AI Training\\CoPilot-Lab-Files-main\\db\\Chinook.db";
     }
 
     public IDbConnection Connection

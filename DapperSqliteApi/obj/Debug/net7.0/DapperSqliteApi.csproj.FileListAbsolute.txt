@@ -1,0 +1,7 @@
+/workspaces/Copilottraining/DapperSqliteApi/obj/Debug/net7.0/DapperSqliteApi.csproj.AssemblyReference.cache
+/workspaces/Copilottraining/DapperSqliteApi/obj/Debug/net7.0/DapperSqliteApi.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Copilottraining/DapperSqliteApi/obj/Debug/net7.0/DapperSqliteApi.AssemblyInfoInputs.cache
+/workspaces/Copilottraining/DapperSqliteApi/obj/Debug/net7.0/DapperSqliteApi.AssemblyInfo.cs
+/workspaces/Copilottraining/DapperSqliteApi/obj/Debug/net7.0/DapperSqliteApi.csproj.CoreCompileInputs.cache
+/workspaces/Copilottraining/DapperSqliteApi/obj/Debug/net7.0/DapperSqliteApi.MvcApplicationPartsAssemblyInfo.cs
+/workspaces/Copilottraining/DapperSqliteApi/obj/Debug/net7.0/DapperSqliteApi.MvcApplicationPartsAssemblyInfo.cache

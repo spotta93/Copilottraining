@@ -43,6 +43,10 @@
               "target": "Package",
               "version": "[2.1.28, )"
             },
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.9, )"
